@@ -79,6 +79,6 @@ typings/
 *.d.ts
 *.js.map
 *.js
-*.ic10
+tests/files/compile
 tests/000.icX
 package-lock.json

@@ -1,0 +1,10 @@
+# Example
+use comments
+var a = 0
+var on = d1.Open
+# Example
+d0.On = on
+test()
+function test
+ var c = 1
+end

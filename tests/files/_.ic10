@@ -1,0 +1,12 @@
+alias a r0
+alias ab r1
+alias ac r2
+alias ad r3
+alias adc r4
+move a 1.1
+move ab 15
+move ac -1.1
+move ad -15
+s d0 On 1
+s d0 On 0
+l adc d0 On

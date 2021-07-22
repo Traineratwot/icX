@@ -1,0 +1,8 @@
+use aliases
+var a = 1.1
+var ab = 15
+var ac = -1.1
+var ad = -15
+d0.On = 1
+d0.On = 0
+var adc = d0.On

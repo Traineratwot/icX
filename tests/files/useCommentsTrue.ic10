@@ -1,0 +1,12 @@
+# ---icX User code start---
+# Example
+move r0 0
+l r1 d1 Open
+# Example
+s d0 On r1
+jal test
+# ---icX User code end---
+jr 4
+test:
+move r2 1
+j ra

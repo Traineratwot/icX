@@ -4,9 +4,9 @@
   "description": "Compiler icX to ic10 ",
   "main": "index.js",
   "scripts": {
-    "start": "npm update && tsc -w",
-    "test": "node test.js",
-    "debug": "nodemon -w ./ -e js,icX test.js"
+    "start": "tsc -w",
+    "test": "node test-run.js",
+    "debug": "nodemon -w ./ -e js,icX test-run.js"
   },
   "homepage": "https://github.com/Traineratwot/icX",
   "keywords": [
@@ -20,7 +20,7 @@
     "index.d.ts",
     "index.js",
     "index.js.map",
-    "test.ts"
+    "test-run.ts"
   ],
   "exclude": [
     ".idea",

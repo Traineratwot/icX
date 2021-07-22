@@ -81,7 +81,7 @@ export class icX {
 			.map((line) => {
 				const args: Array<string> = line.trim().split(/\s+/)
 				const command = args.shift() ?? ""
-				const empty = (!command || command.startsWith("#")) ? true : false
+				const empty = !command
 				return {command, args, empty}
 			})
 		commands.forEach(command => {
